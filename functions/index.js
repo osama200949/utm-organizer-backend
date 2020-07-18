@@ -4,7 +4,7 @@ const app = express();
 const todosRouter = require("./api/controllers/todos_controller");
 
 app.use(express.json());
-app.use("/v1/todos", todosRouter);
+// app.use("/v1/todos", todosRouter);
 
 exports.api = functions.https.onRequest(app);
 
@@ -13,6 +13,4 @@ exports.functionsTimeOut = functions.runWith({
   timeoutSeconds: 300,
 });
 
-exports.setupdb = functions.https.onRequest(require('./setup_database'))
-
-
+exports.setupdb = functions.https.onRequest(require("./setup_database"));
