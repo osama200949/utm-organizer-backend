@@ -23,7 +23,7 @@ router.get("/:id", async (req, res, next) => {
   }
 });
 
-// Create a new todo
+// Create a new club
 router.post("/", async (req, res, next) => {
   try {
     const result = await clubsModel.create(req.body);
@@ -66,7 +66,7 @@ router.patch("/:id", async (req, res, next) => {
   }
 });
 
-// Replace a todo
+// Replace a club
 router.put("/:id", async (req, res, next) => {
   try {
     const updateResult = await clubsModel.update(req.params.id, req.body);
