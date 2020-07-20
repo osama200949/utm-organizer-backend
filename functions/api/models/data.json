@@ -1,351 +1,2896 @@
-{
-    "years": [{
-        "number": 1,
-        "semesters": [{
+[{
+        "course": "Software Engineering",
+        "years": [{
                 "number": 1,
-                "courses": [{
-                        "code": "SECI1013",
-                        "name": "Discrete Structure",
-                        "sections": [{
-                                "isPressed": false,
-                                "number": 1,
-                                "doctor": {
-                                    "name": "Siti Zayton Binti Othman",
-                                    "classes": [{
-                                            "startTime": "2020-05-03T08:00:00Z",
-                                            "endTime": "2020-05-03T10:00:00Z",
-                                            "day": "Tuesday"
-                                        },
-                                        {
-                                            "startTime": "2020-05-03T09:00:00Z",
-                                            "endTime": "2020-05-03T10:00:00Z",
-                                            "day": "Wednesday"
+                "semesters": [{
+                        "number": 1,
+                        "courses": [{
+                                "code": "SECI1013",
+                                "name": "Discrete Structure",
+                                "sections": [{
+                                        "number": 1,
+                                        "doctor": {
+                                            "name": "Siti Zayton Binti Othman",
+                                            "classes": [{
+                                                    "startTime": "2020-05-03T08:00:00Z",
+                                                    "endTime": "2020-05-03T10:00:00Z",
+                                                    "day": "Tuesday"
+                                                },
+                                                {
+                                                    "startTime": "2020-05-03T09:00:00Z",
+                                                    "endTime": "2020-05-03T10:00:00Z",
+                                                    "day": "Wednesday"
+                                                }
+                                            ]
                                         }
-                                    ]
-                                }
-                            },
-                            {
-                                "isPressed": false,
-                                "number": 2,
-                                "doctor": {
-                                    "name": "Mohd bin Mohamad",
-                                    "classes": [{
-                                            "startTime": "2020-05-03T14:00:00Z",
-                                            "endTime": "2020-05-03T16:00:00Z",
-                                            "day": "Monday"
-                                        },
-                                        {
-                                            "startTime": "2020-05-03T12:00:00Z",
-                                            "endTime": "2020-05-03T13:00:00Z",
-                                            "day": "Tuesday"
-                                        }
-                                    ]
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "code": "SESJ1013",
-                        "name": "Programming Technique 1",
-                        "sections": [{
-                                "isPressed": false,
-                                "number": 1,
-                                "doctor": {
-                                    "name": "Haswadi bin Hasan",
-                                    "classes": [{
-                                            "startTime": "2020-05-03T11:00:00Z",
-                                            "endTime": "2020-05-03T13:00:00Z",
-                                            "day": "Monday"
-                                        },
-                                        {
-                                            "startTime": "2020-05-03T10:00:00Z",
-                                            "endTime": "2020-05-03T12:00:00Z",
-                                            "day": "Thursday"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "isPressed": false,
-                                "number": 1,
-                                "doctor": {
-                                    "name": "Johan bin Mohamad Sharif",
-                                    "classes": [{
-                                            "startTime": "2020-05-03T11:00:00Z",
-                                            "endTime": "2020-05-03T13:00:00Z",
-                                            "day": "Sunday"
-                                        },
-                                        {
-                                            "startTime": "2020-05-03T11:00:00Z",
-                                            "endTime": "2020-05-03T13:00:00Z",
-                                            "day": "Monday"
-                                        }
-                                    ]
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "code": "SECR1013",
-                        "name": "Digital Logic",
-                        "sections": [{
-                                "isPressed": false,
-                                "number": 1,
-                                "doctor": {
-                                    "name": "Siti Hajar binti Othman",
-                                    "classes": [{
-                                            "startTime": "2020-05-03T08:00:00Z",
-                                            "endTime": "2020-05-03T10:00:00Z",
-                                            "day": "Tuesday"
-                                        },
-                                        {
-                                            "startTime": "2020-05-03T11:00:00Z",
-                                            "endTime": "2020-05-03T12:00:00Z",
-                                            "day": "Wednesday"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "isPressed": false,
-                                "number": 2,
-                                "doctor": {
-                                    "name": "Mohd. Murtadha bin Mohamad",
-                                    "classes": [{
-                                            "startTime": "2020-05-03T14:00:00Z",
-                                            "endTime": "2020-05-03T16:00:00Z",
-                                            "day": "Monday"
-                                        },
-                                        {
-                                            "startTime": "2020-05-03T11:00:00Z",
-                                            "endTime": "2020-05-03T13:00:00Z",
-                                            "day": "Tuesday"
-                                        }
-                                    ]
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "code": "SECP1513",
-                        "name": "Technology & Information System",
-                        "sections": [{
-                            "isPressed": false,
-                            "number": 1,
-                            "doctor": {
-                                "name": "Norina Binti Yasser",
-                                "classes": [{
-                                        "startTime": "2020-05-03T08:00:00Z",
-                                        "endTime": "2020-05-03T10:00:00Z",
-                                        "day": "Wednesday"
                                     },
                                     {
-                                        "startTime": "2020-05-03T11:00:00Z",
-                                        "endTime": "2020-05-03T13:00:00Z",
-                                        "day": "thursday"
+                                        "number": 2,
+                                        "doctor": {
+                                            "name": "Mohd bin Mohamad",
+                                            "classes": [{
+                                                    "startTime": "2020-05-03T14:00:00Z",
+                                                    "endTime": "2020-05-03T16:00:00Z",
+                                                    "day": "Monday"
+                                                },
+                                                {
+                                                    "startTime": "2020-05-03T12:00:00Z",
+                                                    "endTime": "2020-05-03T13:00:00Z",
+                                                    "day": "Tuesday"
+                                                }
+                                            ]
+                                        }
                                     }
                                 ]
-                            }
-                        }]
-                    },
-                    {
-                        "code": "UHMT1012",
-                        "name": "Graduate Success Attributes",
-                        "sections": [{
-                                "isPressed": false,
-                                "number": 1,
-                                "doctor": {
-                                    "name": "Corrienna Abdul Talib",
-                                    "classes": [{
-                                        "startTime": "2020-05-03T14:00:00Z",
-                                        "endTime": "2020-05-03T16:00:00Z",
-                                        "day": "Wednesday"
-                                    }]
-                                }
                             },
                             {
-                                "isPressed": false,
-                                "number": 2,
-                                "doctor": {
-                                    "name": "Lokman Ali",
-                                    "classes": [{
-                                        "startTime": "2020-05-03T14:00:00Z",
-                                        "endTime": "2020-05-03T16:00:00Z",
-                                        "day": "Wednesday"
-                                    }]
-                                }
+                                "code": "SESJ1013",
+                                "name": "Programming Technique 1",
+                                "sections": [{
+                                        "number": 1,
+                                        "doctor": {
+                                            "name": "Haswadi bin Hasan",
+                                            "classes": [{
+                                                    "startTime": "2020-05-03T11:00:00Z",
+                                                    "endTime": "2020-05-03T13:00:00Z",
+                                                    "day": "Monday"
+                                                },
+                                                {
+                                                    "startTime": "2020-05-03T10:00:00Z",
+                                                    "endTime": "2020-05-03T12:00:00Z",
+                                                    "day": "Thursday"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "number": 1,
+                                        "doctor": {
+                                            "name": "Johan bin Mohamad Sharif",
+                                            "classes": [{
+                                                    "startTime": "2020-05-03T11:00:00Z",
+                                                    "endTime": "2020-05-03T13:00:00Z",
+                                                    "day": "Sunday"
+                                                },
+                                                {
+                                                    "startTime": "2020-05-03T11:00:00Z",
+                                                    "endTime": "2020-05-03T13:00:00Z",
+                                                    "day": "Monday"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
                             },
                             {
-                                "isPressed": false,
-                                "number": 3,
-                                "doctor": {
-                                    "name": "Mohd Fa’iz Ahmad",
-                                    "classes": [{
-                                        "startTime": "2020-05-03T14:00:00Z",
-                                        "endTime": "2020-05-03T16:00:00Z",
-                                        "day": "Wednesday"
-                                    }]
-                                }
+                                "code": "SECR1013",
+                                "name": "Digital Logic",
+                                "sections": [{
+                                        "number": 1,
+                                        "doctor": {
+                                            "name": "Siti Hajar binti Othman",
+                                            "classes": [{
+                                                    "startTime": "2020-05-03T08:00:00Z",
+                                                    "endTime": "2020-05-03T10:00:00Z",
+                                                    "day": "Tuesday"
+                                                },
+                                                {
+                                                    "startTime": "2020-05-03T11:00:00Z",
+                                                    "endTime": "2020-05-03T12:00:00Z",
+                                                    "day": "Wednesday"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "number": 2,
+                                        "doctor": {
+                                            "name": "Mohd. Murtadha bin Mohamad",
+                                            "classes": [{
+                                                    "startTime": "2020-05-03T14:00:00Z",
+                                                    "endTime": "2020-05-03T16:00:00Z",
+                                                    "day": "Monday"
+                                                },
+                                                {
+                                                    "startTime": "2020-05-03T11:00:00Z",
+                                                    "endTime": "2020-05-03T13:00:00Z",
+                                                    "day": "Tuesday"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
                             },
                             {
-                                "isPressed": false,
-                                "number": 4,
-                                "doctor": {
-                                    "name": "Hazinah Kutty Mammi",
-                                    "classes": [{
-                                        "startTime": "2020-05-03T14:00:00Z",
-                                        "endTime": "2020-05-03T16:00:00Z",
-                                        "day": "Wednesday"
-                                    }]
-                                }
+                                "code": "SECP1513",
+                                "name": "Technology & Information System",
+                                "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "Norina Binti Yasser",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T08:00:00Z",
+                                                "endTime": "2020-05-03T10:00:00Z",
+                                                "day": "Wednesday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T11:00:00Z",
+                                                "endTime": "2020-05-03T13:00:00Z",
+                                                "day": "thursday"
+                                            }
+                                        ]
+                                    }
+                                }]
+                            },
+                            {
+                                "code": "UHMT1012",
+                                "name": "Graduate Success Attributes",
+                                "sections": [{
+                                        "number": 1,
+                                        "doctor": {
+                                            "name": "Corrienna Abdul Talib",
+                                            "classes": [{
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "Wednesday"
+                                            }]
+                                        }
+                                    },
+                                    {
+                                        "number": 2,
+                                        "doctor": {
+                                            "name": "Lokman Ali",
+                                            "classes": [{
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "Wednesday"
+                                            }]
+                                        }
+                                    },
+                                    {
+                                        "number": 3,
+                                        "doctor": {
+                                            "name": "Mohd Fa’iz Ahmad",
+                                            "classes": [{
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "Wednesday"
+                                            }]
+                                        }
+                                    },
+                                    {
+                                        "number": 4,
+                                        "doctor": {
+                                            "name": "Hazinah Kutty Mammi",
+                                            "classes": [{
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "Wednesday"
+                                            }]
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "code": "UHIT2302",
+                                "name": "The Thought of Sciences and Technology",
+                                "sections": [{
+                                        "number": 2,
+                                        "doctor": {
+                                            "name": "CCSL",
+                                            "classes": [{
+                                                "startTime": "2020-05-03T11:00:00Z",
+                                                "endTime": "2020-05-03T13:00:00Z",
+                                                "day": "sunday"
+                                            }]
+                                        }
+                                    },
+                                    {
+                                        "number": 3,
+                                        "doctor": {
+                                            "name": "CCSL",
+                                            "classes": [{
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "sunday"
+                                            }]
+                                        }
+                                    },
+                                    {
+                                        "number": 4,
+                                        "doctor": {
+                                            "name": "CCSL",
+                                            "classes": [{
+                                                "startTime": "2020-05-03T11:00:00Z",
+                                                "endTime": "2020-05-03T13:00:00Z",
+                                                "day": "sunday"
+                                            }]
+                                        }
+                                    },
+                                    {
+                                        "number": 5,
+                                        "doctor": {
+                                            "name": "CCSL",
+                                            "classes": [{
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "sunday"
+                                            }]
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "code": "UHMS1172",
+                                "name": "Malaysia Dynamic",
+                                "sections": [{
+                                    "number": 11,
+                                    "doctor": {
+                                        "name": "Zulkifli bin Khair",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T10:00:00Z",
+                                            "endTime": "2020-05-03T12:00:00Z",
+                                            "day": "Tuesday"
+                                        }]
+                                    }
+                                }]
+                            },
+                            {
+                                "code": "UHLM1012",
+                                "name": "Malaysia Language for Communication II",
+                                "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "Zaliza binti Mohamad Nasir",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T08:00:00Z",
+                                            "endTime": "2020-05-03T10:00:00Z",
+                                            "day": "Thursday"
+                                        }]
+                                    }
+                                }]
+                            },
+                            {
+                                "code": "UHMS1022",
+                                "name": "Malaysian Studies 3",
+                                "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": " Faizah binti Mohamad Nor",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T08:00:00Z",
+                                            "endTime": "2020-05-03T10:00:00Z",
+                                            "day": "Thursday"
+                                        }]
+                                    }
+                                }]
                             }
                         ]
                     },
                     {
-                        "code": "UHIT2302",
-                        "name": "The Thought of Sciences and Technology",
-                        "sections": [{
-                                "isPressed": false,
-                                "number": 2,
-                                "doctor": {
-                                    "name": "CCSL",
-                                    "classes": [{
-                                        "startTime": "2020-05-03T11:00:00Z",
-                                        "endTime": "2020-05-03T13:00:00Z",
-                                        "day": "sunday"
-                                    }]
-                                }
+                        "number": 2,
+                        "courses": [{
+                                "code": "SECR1033",
+                                "name": "Computer Organization and Architecture",
+                                "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "Ahmad Fariz bin Ali",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T11:00:00Z",
+                                                "endTime": "2020-05-03T13:00:00Z",
+                                                "day": "Tuesday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T08:00:00Z",
+                                                "endTime": "2020-05-03T09:00:00Z",
+                                                "day": "Thursday"
+                                            }
+                                        ]
+                                    }
+                                }]
                             },
                             {
-                                "isPressed": false,
-                                "number": 3,
-                                "doctor": {
-                                    "name": "CCSL",
-                                    "classes": [{
-                                        "startTime": "2020-05-03T14:00:00Z",
-                                        "endTime": "2020-05-03T16:00:00Z",
-                                        "day": "sunday"
-                                    }]
-                                }
-                            },
-                            {
-                                "isPressed": false,
-                                "number": 4,
-                                "doctor": {
-                                    "name": "CCSL",
-                                    "classes": [{
-                                        "startTime": "2020-05-03T11:00:00Z",
-                                        "endTime": "2020-05-03T13:00:00Z",
-                                        "day": "sunday"
-                                    }]
-                                }
-                            },
-                            {
-                                "isPressed": false,
-                                "number": 5,
-                                "doctor": {
-                                    "name": "CCSL",
-                                    "classes": [{
-                                        "startTime": "2020-05-03T14:00:00Z",
-                                        "endTime": "2020-05-03T16:00:00Z",
-                                        "day": "sunday"
-                                    }]
-                                }
+                                "code": "SECI1113",
+                                "name": "Computational Mathematics",
+                                "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "Razana binti Alwee",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T08:00:00Z",
+                                            "endTime": "2020-05-03T11:00:00Z",
+                                            "day": "Tuesday"
+                                        }]
+                                    }
+                                }]
                             }
                         ]
-                    },
-                    {
-                        "code": "UHMS1172",
-                        "name": "Malaysia Dynamic",
-                        "sections": [{
-                            "isPressed": false,
-                            "number": 11,
-                            "doctor": {
-                                "name": "Zulkifli bin Khair",
-                                "classes": [{
-                                    "startTime": "2020-05-03T10:00:00Z",
-                                    "endTime": "2020-05-03T12:00:00Z",
-                                    "day": "Tuesday"
-                                }]
-                            }
-                        }]
-                    },
-                    {
-                        "code": "UHLM1012",
-                        "name": "Malaysia Language for Communication II",
-                        "sections": [{
-                            "isPressed": false,
-                            "number": 1,
-                            "doctor": {
-                                "name": "Zaliza binti Mohamad Nasir",
-                                "classes": [{
-                                    "startTime": "2020-05-03T08:00:00Z",
-                                    "endTime": "2020-05-03T10:00:00Z",
-                                    "day": "Thursday"
-                                }]
-                            }
-                        }]
-                    },
-                    {
-                        "code": "UHMS1022",
-                        "name": "Malaysian Studies 3",
-                        "sections": [{
-                            "isPressed": false,
-                            "number": 1,
-                            "doctor": {
-                                "name": " Faizah binti Mohamad Nor",
-                                "classes": [{
-                                    "startTime": "2020-05-03T08:00:00Z",
-                                    "endTime": "2020-05-03T10:00:00Z",
-                                    "day": "Thursday"
-                                }]
-                            }
-                        }]
                     }
                 ]
             },
             {
                 "number": 2,
-                "courses": [{
-                        "code": "SECR1033",
-                        "name": "Computer Organization and Architecture",
-                        "sections": [{
-                            "isPressed": false,
-                            "number": 1,
-                            "doctor": {
-                                "name": "Ahmad Fariz bin Ali",
-                                "classes": [{
-                                        "startTime": "2020-05-03T11:00:00Z",
-                                        "endTime": "2020-05-03T13:00:00Z",
-                                        "day": "Tuesday"
-                                    },
-                                    {
-                                        "startTime": "2020-05-03T08:00:00Z",
-                                        "endTime": "2020-05-03T09:00:00Z",
-                                        "day": "Thursday"
+                "semesters": [{
+                    "number": 1,
+                    "courses": [{
+                            "code": "SECD2523",
+                            "name": "Database",
+                            "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T11:00:00Z",
+                                                "endTime": "2020-05-03T13:00:00Z",
+                                                "day": "Monday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T08:00:00Z",
+                                                "endTime": "2020-05-03T10:00:00Z",
+                                                "day": "Tuesday"
+                                            }
+                                        ]
                                     }
-                                ]
-                            }
-                        }]
-                    },
-                    {
-                        "code": "SECI1113",
-                        "name": "Computational Mathematics",
-                        "sections": [{
-                            "isPressed": false,
-                            "number": 1,
-                            "doctor": {
-                                "name": "Razana binti Alwee",
-                                "classes": [{
-                                    "startTime": "2020-05-03T08:00:00Z",
-                                    "endTime": "2020-05-03T11:00:00Z",
-                                    "day": "Tuesday"
-                                }]
-                            }
-                        }]
-                    }
-                ]
+                                },
+                                {
+                                    "number": 2,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T11:00:00Z",
+                                                "endTime": "2020-05-03T13:00:00Z",
+                                                "day": "Monday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T08:00:00Z",
+                                                "endTime": "2020-05-03T10:00:00Z",
+                                                "day": "Tuesday"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "number": 3,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T11:00:00Z",
+                                                "endTime": "2020-05-03T13:00:00Z",
+                                                "day": "Monday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T08:00:00Z",
+                                                "endTime": "2020-05-03T10:00:00Z",
+                                                "day": "Tuesday"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "number": 4,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T11:00:00Z",
+                                                "endTime": "2020-05-03T13:00:00Z",
+                                                "day": "Sunday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T11:00:00Z",
+                                                "endTime": "2020-05-03T13:00:00Z",
+                                                "day": "Wednesday"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "code": "SECP2613",
+                            "name": "System Analysis and Design",
+                            "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T17:00:00Z",
+                                            "day": "Sunday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 2,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T17:00:00Z",
+                                            "day": "Sunday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 3,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T17:00:00Z",
+                                            "day": "Sunday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 4,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T17:00:00Z",
+                                            "day": "Wednesday"
+                                        }]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "code": "SECJ2013",
+                            "name": "Data Structure and Alogrithim",
+                            "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "unknown",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "Monday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T11:00:00Z",
+                                                "endTime": "2020-05-03T13:00:00Z",
+                                                "day": "Wednesday"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "number": 2,
+                                    "doctor": {
+                                        "name": "unknown",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "Monday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T11:00:00Z",
+                                                "endTime": "2020-05-03T13:00:00Z",
+                                                "day": "Wednesday"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "number": 3,
+                                    "doctor": {
+                                        "name": "unknown",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "Monday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T08:00:00Z",
+                                                "endTime": "2020-05-03T10:00:00Z",
+                                                "day": "Wednesday"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "code": "SECR1213",
+                            "name": "Network Communications",
+                            "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T17:00:00Z",
+                                            "day": "Wednesday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 2,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T17:00:00Z",
+                                            "day": "Wednesday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 3,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T17:00:00Z",
+                                            "day": "Wednesday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 4,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T10:00:00Z",
+                                            "endTime": "2020-05-03T13:00:00Z",
+                                            "day": "Wednesday"
+                                        }]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "code": "SECV2113",
+                            "name": "Human Computer Interaction",
+                            "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T10:00:00Z",
+                                            "endTime": "2020-05-03T13:00:00Z",
+                                            "day": "Tuesday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 2,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T10:00:00Z",
+                                            "endTime": "2020-05-03T13:00:00Z",
+                                            "day": "Tuesday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 3,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T10:00:00Z",
+                                            "endTime": "2020-05-03T13:00:00Z",
+                                            "day": "Tuesday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 4,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T10:00:00Z",
+                                            "endTime": "2020-05-03T13:00:00Z",
+                                            "day": "Tuesday"
+                                        }]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }]
+            },
+            {
+                "number": 3,
+                "semesters": [{
+                    "number": 1,
+                    "courses": [{
+                            "code": "SECJ3104",
+                            "name": "Application Development",
+                            "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T11:00:00Z",
+                                                "endTime": "2020-05-03T13:00:00Z",
+                                                "day": "Tuesday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "Sunday"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "number": 2,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T08:00:00Z",
+                                                "endTime": "2020-05-03T10:00:00Z",
+                                                "day": "Tuesday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T08:00:00Z",
+                                                "endTime": "2020-05-03T10:00:00Z",
+                                                "day": "Thursday"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "code": "UKQE3001",
+                            "name": "Extracurricular Experiential Learning",
+                            "sections": [{
+                                    "number": 20,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T16:00:00Z",
+                                            "day": "Tuesday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 21,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T16:00:00Z",
+                                            "day": "Tuesday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 22,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T16:00:00Z",
+                                            "day": "Tuesday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 23,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T16:00:00Z",
+                                            "day": "Tuesday"
+                                        }]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "code": "SECJ3553",
+                            "name": "Artificial Intelligence",
+                            "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T17:00:00Z",
+                                            "day": "Monday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 2,
+                                    "doctor": {
+                                        "name": "unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T17:00:00Z",
+                                            "day": "Monday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 3,
+                                    "doctor": {
+                                        "name": "unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T17:00:00Z",
+                                            "day": "Monday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 4,
+                                    "doctor": {
+                                        "name": "unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T17:00:00Z",
+                                            "day": "Monday"
+                                        }]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "code": "SECJ3303",
+                            "name": "Internet Programming",
+                            "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "Monday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T08:00:00Z",
+                                                "endTime": "2020-05-03T10:00:00Z",
+                                                "day": "Thursday"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "number": 2,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "Monday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T08:00:00Z",
+                                                "endTime": "2020-05-03T10:00:00Z",
+                                                "day": "Thursday"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "number": 3,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "Thursday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T08:00:00Z",
+                                                "endTime": "2020-05-03T10:00:00Z",
+                                                "day": "Wednesday"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "number": 4,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "Thursday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T08:00:00Z",
+                                                "endTime": "2020-05-03T10:00:00Z",
+                                                "day": "Wednesday"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "code": "SECJ3323",
+                            "name": "Software Design & Architecture",
+                            "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T10:00:00Z",
+                                            "endTime": "2020-05-03T13:00:00Z",
+                                            "day": "Tuesday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 2,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T10:00:00Z",
+                                            "endTime": "2020-05-03T13:00:00Z",
+                                            "day": "Tuesday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 3,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T17:00:00Z",
+                                            "day": "Monday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 4,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T17:00:00Z",
+                                            "day": "Monday"
+                                        }]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }]
+            },
+            {
+                "number": 4,
+                "semesters": [{
+                    "number": 1,
+                    "courses": [{
+                            "code": "SECD3761",
+                            "name": "Technopreneurship Seminar",
+                            "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T08:00:00Z",
+                                            "endTime": "2020-05-03T11:00:00Z",
+                                            "day": "Monday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 2,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T08:00:00Z",
+                                            "endTime": "2020-05-03T11:00:00Z",
+                                            "day": "Monday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 3,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T08:00:00Z",
+                                            "endTime": "2020-05-03T11:00:00Z",
+                                            "day": "Monday"
+                                        }]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "code": "UBSS1032",
+                            "name": "Introduction to Entrepreneurship",
+                            "sections": [{
+                                    "number": 23,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T08:00:00Z",
+                                            "endTime": "2020-05-03T11:00:00Z",
+                                            "day": "Monday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 24,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T08:00:00Z",
+                                            "endTime": "2020-05-03T11:00:00Z",
+                                            "day": "Monday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 25,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T08:00:00Z",
+                                            "endTime": "2020-05-03T11:00:00Z",
+                                            "day": "Monday"
+                                        }]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }]
             }
         ]
-    }]
-}
+    },
+    {
+        "course": "Network Security",
+        "years": [{
+                "number": 1,
+                "semesters": [{
+                        "number": 1,
+                        "courses": [{
+                                "code": "SECI1013",
+                                "name": "Discrete Structure",
+                                "sections": [{
+                                        "number": 1,
+                                        "doctor": {
+                                            "name": "Siti Zayton Binti Othman",
+                                            "classes": [{
+                                                    "startTime": "2020-05-03T08:00:00Z",
+                                                    "endTime": "2020-05-03T10:00:00Z",
+                                                    "day": "Tuesday"
+                                                },
+                                                {
+                                                    "startTime": "2020-05-03T09:00:00Z",
+                                                    "endTime": "2020-05-03T10:00:00Z",
+                                                    "day": "Wednesday"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "number": 2,
+                                        "doctor": {
+                                            "name": "Mohd bin Mohamad",
+                                            "classes": [{
+                                                    "startTime": "2020-05-03T14:00:00Z",
+                                                    "endTime": "2020-05-03T16:00:00Z",
+                                                    "day": "Monday"
+                                                },
+                                                {
+                                                    "startTime": "2020-05-03T12:00:00Z",
+                                                    "endTime": "2020-05-03T13:00:00Z",
+                                                    "day": "Tuesday"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "code": "SESJ1013",
+                                "name": "Programming Technique 1",
+                                "sections": [{
+                                        "number": 1,
+                                        "doctor": {
+                                            "name": "Haswadi bin Hasan",
+                                            "classes": [{
+                                                    "startTime": "2020-05-03T11:00:00Z",
+                                                    "endTime": "2020-05-03T13:00:00Z",
+                                                    "day": "Monday"
+                                                },
+                                                {
+                                                    "startTime": "2020-05-03T10:00:00Z",
+                                                    "endTime": "2020-05-03T12:00:00Z",
+                                                    "day": "Thursday"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "number": 1,
+                                        "doctor": {
+                                            "name": "Johan bin Mohamad Sharif",
+                                            "classes": [{
+                                                    "startTime": "2020-05-03T11:00:00Z",
+                                                    "endTime": "2020-05-03T13:00:00Z",
+                                                    "day": "Sunday"
+                                                },
+                                                {
+                                                    "startTime": "2020-05-03T11:00:00Z",
+                                                    "endTime": "2020-05-03T13:00:00Z",
+                                                    "day": "Monday"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "code": "SECR1013",
+                                "name": "Digital Logic",
+                                "sections": [{
+                                        "number": 1,
+                                        "doctor": {
+                                            "name": "Siti Hajar binti Othman",
+                                            "classes": [{
+                                                    "startTime": "2020-05-03T08:00:00Z",
+                                                    "endTime": "2020-05-03T10:00:00Z",
+                                                    "day": "Tuesday"
+                                                },
+                                                {
+                                                    "startTime": "2020-05-03T11:00:00Z",
+                                                    "endTime": "2020-05-03T12:00:00Z",
+                                                    "day": "Wednesday"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "number": 2,
+                                        "doctor": {
+                                            "name": "Mohd. Murtadha bin Mohamad",
+                                            "classes": [{
+                                                    "startTime": "2020-05-03T14:00:00Z",
+                                                    "endTime": "2020-05-03T16:00:00Z",
+                                                    "day": "Monday"
+                                                },
+                                                {
+                                                    "startTime": "2020-05-03T11:00:00Z",
+                                                    "endTime": "2020-05-03T13:00:00Z",
+                                                    "day": "Tuesday"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "code": "SECP1513",
+                                "name": "Technology & Information System",
+                                "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "Norina Binti Yasser",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T08:00:00Z",
+                                                "endTime": "2020-05-03T10:00:00Z",
+                                                "day": "Wednesday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T11:00:00Z",
+                                                "endTime": "2020-05-03T13:00:00Z",
+                                                "day": "thursday"
+                                            }
+                                        ]
+                                    }
+                                }]
+                            },
+                            {
+                                "code": "UHMT1012",
+                                "name": "Graduate Success Attributes",
+                                "sections": [{
+                                        "number": 1,
+                                        "doctor": {
+                                            "name": "Corrienna Abdul Talib",
+                                            "classes": [{
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "Wednesday"
+                                            }]
+                                        }
+                                    },
+                                    {
+                                        "number": 2,
+                                        "doctor": {
+                                            "name": "Lokman Ali",
+                                            "classes": [{
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "Wednesday"
+                                            }]
+                                        }
+                                    },
+                                    {
+                                        "number": 3,
+                                        "doctor": {
+                                            "name": "Mohd Fa’iz Ahmad",
+                                            "classes": [{
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "Wednesday"
+                                            }]
+                                        }
+                                    },
+                                    {
+                                        "number": 4,
+                                        "doctor": {
+                                            "name": "Hazinah Kutty Mammi",
+                                            "classes": [{
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "Wednesday"
+                                            }]
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "code": "UHIT2302",
+                                "name": "The Thought of Sciences and Technology",
+                                "sections": [{
+                                        "number": 2,
+                                        "doctor": {
+                                            "name": "CCSL",
+                                            "classes": [{
+                                                "startTime": "2020-05-03T11:00:00Z",
+                                                "endTime": "2020-05-03T13:00:00Z",
+                                                "day": "sunday"
+                                            }]
+                                        }
+                                    },
+                                    {
+                                        "number": 3,
+                                        "doctor": {
+                                            "name": "CCSL",
+                                            "classes": [{
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "sunday"
+                                            }]
+                                        }
+                                    },
+                                    {
+                                        "number": 4,
+                                        "doctor": {
+                                            "name": "CCSL",
+                                            "classes": [{
+                                                "startTime": "2020-05-03T11:00:00Z",
+                                                "endTime": "2020-05-03T13:00:00Z",
+                                                "day": "sunday"
+                                            }]
+                                        }
+                                    },
+                                    {
+                                        "number": 5,
+                                        "doctor": {
+                                            "name": "CCSL",
+                                            "classes": [{
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "sunday"
+                                            }]
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "code": "UHMS1172",
+                                "name": "Malaysia Dynamic",
+                                "sections": [{
+                                    "number": 11,
+                                    "doctor": {
+                                        "name": "Zulkifli bin Khair",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T10:00:00Z",
+                                            "endTime": "2020-05-03T12:00:00Z",
+                                            "day": "Tuesday"
+                                        }]
+                                    }
+                                }]
+                            },
+                            {
+                                "code": "UHLM1012",
+                                "name": "Malaysia Language for Communication II",
+                                "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "Zaliza binti Mohamad Nasir",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T08:00:00Z",
+                                            "endTime": "2020-05-03T10:00:00Z",
+                                            "day": "Thursday"
+                                        }]
+                                    }
+                                }]
+                            },
+                            {
+                                "code": "UHMS1022",
+                                "name": "Malaysian Studies 3",
+                                "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": " Faizah binti Mohamad Nor",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T08:00:00Z",
+                                            "endTime": "2020-05-03T10:00:00Z",
+                                            "day": "Thursday"
+                                        }]
+                                    }
+                                }]
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "courses": [{
+                                "code": "SECR1033",
+                                "name": "Computer Organization and Architecture",
+                                "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "Ahmad Fariz bin Ali",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T11:00:00Z",
+                                                "endTime": "2020-05-03T13:00:00Z",
+                                                "day": "Tuesday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T08:00:00Z",
+                                                "endTime": "2020-05-03T09:00:00Z",
+                                                "day": "Thursday"
+                                            }
+                                        ]
+                                    }
+                                }]
+                            },
+                            {
+                                "code": "SECI1113",
+                                "name": "Computational Mathematics",
+                                "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "Razana binti Alwee",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T08:00:00Z",
+                                            "endTime": "2020-05-03T11:00:00Z",
+                                            "day": "Tuesday"
+                                        }]
+                                    }
+                                }]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "semesters": [{
+                    "number": 1,
+                    "courses": [{
+                            "code": "SECD2523",
+                            "name": "Database",
+                            "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T11:00:00Z",
+                                                "endTime": "2020-05-03T13:00:00Z",
+                                                "day": "Monday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T08:00:00Z",
+                                                "endTime": "2020-05-03T10:00:00Z",
+                                                "day": "Tuesday"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "number": 2,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T11:00:00Z",
+                                                "endTime": "2020-05-03T13:00:00Z",
+                                                "day": "Monday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T08:00:00Z",
+                                                "endTime": "2020-05-03T10:00:00Z",
+                                                "day": "Tuesday"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "number": 3,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T11:00:00Z",
+                                                "endTime": "2020-05-03T13:00:00Z",
+                                                "day": "Monday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T08:00:00Z",
+                                                "endTime": "2020-05-03T10:00:00Z",
+                                                "day": "Tuesday"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "number": 4,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T11:00:00Z",
+                                                "endTime": "2020-05-03T13:00:00Z",
+                                                "day": "Sunday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T11:00:00Z",
+                                                "endTime": "2020-05-03T13:00:00Z",
+                                                "day": "Wednesday"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "code": "SECP2613",
+                            "name": "System Analysis and Design",
+                            "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T17:00:00Z",
+                                            "day": "Sunday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 2,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T17:00:00Z",
+                                            "day": "Sunday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 3,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T17:00:00Z",
+                                            "day": "Sunday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 4,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T17:00:00Z",
+                                            "day": "Wednesday"
+                                        }]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "code": "SECJ2013",
+                            "name": "Data Structure and Alogrithim",
+                            "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "unknown",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "Monday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T11:00:00Z",
+                                                "endTime": "2020-05-03T13:00:00Z",
+                                                "day": "Wednesday"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "number": 2,
+                                    "doctor": {
+                                        "name": "unknown",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "Monday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T11:00:00Z",
+                                                "endTime": "2020-05-03T13:00:00Z",
+                                                "day": "Wednesday"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "number": 3,
+                                    "doctor": {
+                                        "name": "unknown",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "Monday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T08:00:00Z",
+                                                "endTime": "2020-05-03T10:00:00Z",
+                                                "day": "Wednesday"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "code": "SECR1213",
+                            "name": "Network Communications",
+                            "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T17:00:00Z",
+                                            "day": "Wednesday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 2,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T17:00:00Z",
+                                            "day": "Wednesday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 3,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T17:00:00Z",
+                                            "day": "Wednesday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 4,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T10:00:00Z",
+                                            "endTime": "2020-05-03T13:00:00Z",
+                                            "day": "Wednesday"
+                                        }]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "code": "SECV2113",
+                            "name": "Human Computer Interaction",
+                            "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T10:00:00Z",
+                                            "endTime": "2020-05-03T13:00:00Z",
+                                            "day": "Tuesday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 2,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T10:00:00Z",
+                                            "endTime": "2020-05-03T13:00:00Z",
+                                            "day": "Tuesday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 3,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T10:00:00Z",
+                                            "endTime": "2020-05-03T13:00:00Z",
+                                            "day": "Tuesday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 4,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T10:00:00Z",
+                                            "endTime": "2020-05-03T13:00:00Z",
+                                            "day": "Tuesday"
+                                        }]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }]
+            },
+            {
+                "number": 3,
+                "semesters": [{
+                    "number": 1,
+                    "courses": [{
+                            "code": "SECJ3104",
+                            "name": "Application Development",
+                            "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T11:00:00Z",
+                                                "endTime": "2020-05-03T13:00:00Z",
+                                                "day": "Tuesday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "Sunday"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "number": 2,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T08:00:00Z",
+                                                "endTime": "2020-05-03T10:00:00Z",
+                                                "day": "Tuesday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T08:00:00Z",
+                                                "endTime": "2020-05-03T10:00:00Z",
+                                                "day": "Thursday"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "code": "UKQE3001",
+                            "name": "Extracurricular Experiential Learning",
+                            "sections": [{
+                                    "number": 20,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T16:00:00Z",
+                                            "day": "Tuesday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 21,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T16:00:00Z",
+                                            "day": "Tuesday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 22,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T16:00:00Z",
+                                            "day": "Tuesday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 23,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T16:00:00Z",
+                                            "day": "Tuesday"
+                                        }]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "code": "SECJ3553",
+                            "name": "Artificial Intelligence",
+                            "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T17:00:00Z",
+                                            "day": "Monday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 2,
+                                    "doctor": {
+                                        "name": "unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T17:00:00Z",
+                                            "day": "Monday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 3,
+                                    "doctor": {
+                                        "name": "unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T17:00:00Z",
+                                            "day": "Monday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 4,
+                                    "doctor": {
+                                        "name": "unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T17:00:00Z",
+                                            "day": "Monday"
+                                        }]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "code": "SECJ3303",
+                            "name": "Internet Programming",
+                            "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "Monday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T08:00:00Z",
+                                                "endTime": "2020-05-03T10:00:00Z",
+                                                "day": "Thursday"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "number": 2,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "Monday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T08:00:00Z",
+                                                "endTime": "2020-05-03T10:00:00Z",
+                                                "day": "Thursday"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "number": 3,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "Thursday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T08:00:00Z",
+                                                "endTime": "2020-05-03T10:00:00Z",
+                                                "day": "Wednesday"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "number": 4,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "Thursday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T08:00:00Z",
+                                                "endTime": "2020-05-03T10:00:00Z",
+                                                "day": "Wednesday"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "code": "SECJ3323",
+                            "name": "Software Design & Architecture",
+                            "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T10:00:00Z",
+                                            "endTime": "2020-05-03T13:00:00Z",
+                                            "day": "Tuesday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 2,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T10:00:00Z",
+                                            "endTime": "2020-05-03T13:00:00Z",
+                                            "day": "Tuesday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 3,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T17:00:00Z",
+                                            "day": "Monday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 4,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T17:00:00Z",
+                                            "day": "Monday"
+                                        }]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }]
+            },
+            {
+                "number": 4,
+                "semesters": [{
+                    "number": 1,
+                    "courses": [{
+                            "code": "SECD3761",
+                            "name": "Technopreneurship Seminar",
+                            "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T08:00:00Z",
+                                            "endTime": "2020-05-03T11:00:00Z",
+                                            "day": "Monday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 2,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T08:00:00Z",
+                                            "endTime": "2020-05-03T11:00:00Z",
+                                            "day": "Monday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 3,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T08:00:00Z",
+                                            "endTime": "2020-05-03T11:00:00Z",
+                                            "day": "Monday"
+                                        }]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "code": "UBSS1032",
+                            "name": "Introduction to Entrepreneurship",
+                            "sections": [{
+                                    "number": 23,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T08:00:00Z",
+                                            "endTime": "2020-05-03T11:00:00Z",
+                                            "day": "Monday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 24,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T08:00:00Z",
+                                            "endTime": "2020-05-03T11:00:00Z",
+                                            "day": "Monday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 25,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T08:00:00Z",
+                                            "endTime": "2020-05-03T11:00:00Z",
+                                            "day": "Monday"
+                                        }]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }]
+            }
+        ]
+    },
+    {
+        "course": "Data Engineering",
+        "years": [{
+                "number": 1,
+                "semesters": [{
+                        "number": 1,
+                        "courses": [{
+                                "code": "SECI1013",
+                                "name": "Discrete Structure",
+                                "sections": [{
+                                        "number": 1,
+                                        "doctor": {
+                                            "name": "Siti Zayton Binti Othman",
+                                            "classes": [{
+                                                    "startTime": "2020-05-03T08:00:00Z",
+                                                    "endTime": "2020-05-03T10:00:00Z",
+                                                    "day": "Tuesday"
+                                                },
+                                                {
+                                                    "startTime": "2020-05-03T09:00:00Z",
+                                                    "endTime": "2020-05-03T10:00:00Z",
+                                                    "day": "Wednesday"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "number": 2,
+                                        "doctor": {
+                                            "name": "Mohd bin Mohamad",
+                                            "classes": [{
+                                                    "startTime": "2020-05-03T14:00:00Z",
+                                                    "endTime": "2020-05-03T16:00:00Z",
+                                                    "day": "Monday"
+                                                },
+                                                {
+                                                    "startTime": "2020-05-03T12:00:00Z",
+                                                    "endTime": "2020-05-03T13:00:00Z",
+                                                    "day": "Tuesday"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "code": "SESJ1013",
+                                "name": "Programming Technique 1",
+                                "sections": [{
+                                        "number": 1,
+                                        "doctor": {
+                                            "name": "Haswadi bin Hasan",
+                                            "classes": [{
+                                                    "startTime": "2020-05-03T11:00:00Z",
+                                                    "endTime": "2020-05-03T13:00:00Z",
+                                                    "day": "Monday"
+                                                },
+                                                {
+                                                    "startTime": "2020-05-03T10:00:00Z",
+                                                    "endTime": "2020-05-03T12:00:00Z",
+                                                    "day": "Thursday"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "number": 1,
+                                        "doctor": {
+                                            "name": "Johan bin Mohamad Sharif",
+                                            "classes": [{
+                                                    "startTime": "2020-05-03T11:00:00Z",
+                                                    "endTime": "2020-05-03T13:00:00Z",
+                                                    "day": "Sunday"
+                                                },
+                                                {
+                                                    "startTime": "2020-05-03T11:00:00Z",
+                                                    "endTime": "2020-05-03T13:00:00Z",
+                                                    "day": "Monday"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "code": "SECR1013",
+                                "name": "Digital Logic",
+                                "sections": [{
+                                        "number": 1,
+                                        "doctor": {
+                                            "name": "Siti Hajar binti Othman",
+                                            "classes": [{
+                                                    "startTime": "2020-05-03T08:00:00Z",
+                                                    "endTime": "2020-05-03T10:00:00Z",
+                                                    "day": "Tuesday"
+                                                },
+                                                {
+                                                    "startTime": "2020-05-03T11:00:00Z",
+                                                    "endTime": "2020-05-03T12:00:00Z",
+                                                    "day": "Wednesday"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "number": 2,
+                                        "doctor": {
+                                            "name": "Mohd. Murtadha bin Mohamad",
+                                            "classes": [{
+                                                    "startTime": "2020-05-03T14:00:00Z",
+                                                    "endTime": "2020-05-03T16:00:00Z",
+                                                    "day": "Monday"
+                                                },
+                                                {
+                                                    "startTime": "2020-05-03T11:00:00Z",
+                                                    "endTime": "2020-05-03T13:00:00Z",
+                                                    "day": "Tuesday"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "code": "SECP1513",
+                                "name": "Technology & Information System",
+                                "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "Norina Binti Yasser",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T08:00:00Z",
+                                                "endTime": "2020-05-03T10:00:00Z",
+                                                "day": "Wednesday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T11:00:00Z",
+                                                "endTime": "2020-05-03T13:00:00Z",
+                                                "day": "thursday"
+                                            }
+                                        ]
+                                    }
+                                }]
+                            },
+                            {
+                                "code": "UHMT1012",
+                                "name": "Graduate Success Attributes",
+                                "sections": [{
+                                        "number": 1,
+                                        "doctor": {
+                                            "name": "Corrienna Abdul Talib",
+                                            "classes": [{
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "Wednesday"
+                                            }]
+                                        }
+                                    },
+                                    {
+                                        "number": 2,
+                                        "doctor": {
+                                            "name": "Lokman Ali",
+                                            "classes": [{
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "Wednesday"
+                                            }]
+                                        }
+                                    },
+                                    {
+                                        "number": 3,
+                                        "doctor": {
+                                            "name": "Mohd Fa’iz Ahmad",
+                                            "classes": [{
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "Wednesday"
+                                            }]
+                                        }
+                                    },
+                                    {
+                                        "number": 4,
+                                        "doctor": {
+                                            "name": "Hazinah Kutty Mammi",
+                                            "classes": [{
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "Wednesday"
+                                            }]
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "code": "UHIT2302",
+                                "name": "The Thought of Sciences and Technology",
+                                "sections": [{
+                                        "number": 2,
+                                        "doctor": {
+                                            "name": "CCSL",
+                                            "classes": [{
+                                                "startTime": "2020-05-03T11:00:00Z",
+                                                "endTime": "2020-05-03T13:00:00Z",
+                                                "day": "sunday"
+                                            }]
+                                        }
+                                    },
+                                    {
+                                        "number": 3,
+                                        "doctor": {
+                                            "name": "CCSL",
+                                            "classes": [{
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "sunday"
+                                            }]
+                                        }
+                                    },
+                                    {
+                                        "number": 4,
+                                        "doctor": {
+                                            "name": "CCSL",
+                                            "classes": [{
+                                                "startTime": "2020-05-03T11:00:00Z",
+                                                "endTime": "2020-05-03T13:00:00Z",
+                                                "day": "sunday"
+                                            }]
+                                        }
+                                    },
+                                    {
+                                        "number": 5,
+                                        "doctor": {
+                                            "name": "CCSL",
+                                            "classes": [{
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "sunday"
+                                            }]
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "code": "UHMS1172",
+                                "name": "Malaysia Dynamic",
+                                "sections": [{
+                                    "number": 11,
+                                    "doctor": {
+                                        "name": "Zulkifli bin Khair",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T10:00:00Z",
+                                            "endTime": "2020-05-03T12:00:00Z",
+                                            "day": "Tuesday"
+                                        }]
+                                    }
+                                }]
+                            },
+                            {
+                                "code": "UHLM1012",
+                                "name": "Malaysia Language for Communication II",
+                                "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "Zaliza binti Mohamad Nasir",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T08:00:00Z",
+                                            "endTime": "2020-05-03T10:00:00Z",
+                                            "day": "Thursday"
+                                        }]
+                                    }
+                                }]
+                            },
+                            {
+                                "code": "UHMS1022",
+                                "name": "Malaysian Studies 3",
+                                "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": " Faizah binti Mohamad Nor",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T08:00:00Z",
+                                            "endTime": "2020-05-03T10:00:00Z",
+                                            "day": "Thursday"
+                                        }]
+                                    }
+                                }]
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "courses": [{
+                                "code": "SECR1033",
+                                "name": "Computer Organization and Architecture",
+                                "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "Ahmad Fariz bin Ali",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T11:00:00Z",
+                                                "endTime": "2020-05-03T13:00:00Z",
+                                                "day": "Tuesday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T08:00:00Z",
+                                                "endTime": "2020-05-03T09:00:00Z",
+                                                "day": "Thursday"
+                                            }
+                                        ]
+                                    }
+                                }]
+                            },
+                            {
+                                "code": "SECI1113",
+                                "name": "Computational Mathematics",
+                                "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "Razana binti Alwee",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T08:00:00Z",
+                                            "endTime": "2020-05-03T11:00:00Z",
+                                            "day": "Tuesday"
+                                        }]
+                                    }
+                                }]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "semesters": [{
+                    "number": 1,
+                    "courses": [{
+                            "code": "SECD2523",
+                            "name": "Database",
+                            "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T11:00:00Z",
+                                                "endTime": "2020-05-03T13:00:00Z",
+                                                "day": "Monday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T08:00:00Z",
+                                                "endTime": "2020-05-03T10:00:00Z",
+                                                "day": "Tuesday"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "number": 2,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T11:00:00Z",
+                                                "endTime": "2020-05-03T13:00:00Z",
+                                                "day": "Monday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T08:00:00Z",
+                                                "endTime": "2020-05-03T10:00:00Z",
+                                                "day": "Tuesday"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "number": 3,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T11:00:00Z",
+                                                "endTime": "2020-05-03T13:00:00Z",
+                                                "day": "Monday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T08:00:00Z",
+                                                "endTime": "2020-05-03T10:00:00Z",
+                                                "day": "Tuesday"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "number": 4,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T11:00:00Z",
+                                                "endTime": "2020-05-03T13:00:00Z",
+                                                "day": "Sunday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T11:00:00Z",
+                                                "endTime": "2020-05-03T13:00:00Z",
+                                                "day": "Wednesday"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "code": "SECP2613",
+                            "name": "System Analysis and Design",
+                            "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T17:00:00Z",
+                                            "day": "Sunday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 2,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T17:00:00Z",
+                                            "day": "Sunday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 3,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T17:00:00Z",
+                                            "day": "Sunday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 4,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T17:00:00Z",
+                                            "day": "Wednesday"
+                                        }]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "code": "SECJ2013",
+                            "name": "Data Structure and Alogrithim",
+                            "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "unknown",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "Monday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T11:00:00Z",
+                                                "endTime": "2020-05-03T13:00:00Z",
+                                                "day": "Wednesday"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "number": 2,
+                                    "doctor": {
+                                        "name": "unknown",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "Monday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T11:00:00Z",
+                                                "endTime": "2020-05-03T13:00:00Z",
+                                                "day": "Wednesday"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "number": 3,
+                                    "doctor": {
+                                        "name": "unknown",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "Monday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T08:00:00Z",
+                                                "endTime": "2020-05-03T10:00:00Z",
+                                                "day": "Wednesday"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "code": "SECR1213",
+                            "name": "Network Communications",
+                            "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T17:00:00Z",
+                                            "day": "Wednesday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 2,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T17:00:00Z",
+                                            "day": "Wednesday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 3,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T17:00:00Z",
+                                            "day": "Wednesday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 4,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T10:00:00Z",
+                                            "endTime": "2020-05-03T13:00:00Z",
+                                            "day": "Wednesday"
+                                        }]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "code": "SECV2113",
+                            "name": "Human Computer Interaction",
+                            "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T10:00:00Z",
+                                            "endTime": "2020-05-03T13:00:00Z",
+                                            "day": "Tuesday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 2,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T10:00:00Z",
+                                            "endTime": "2020-05-03T13:00:00Z",
+                                            "day": "Tuesday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 3,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T10:00:00Z",
+                                            "endTime": "2020-05-03T13:00:00Z",
+                                            "day": "Tuesday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 4,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T10:00:00Z",
+                                            "endTime": "2020-05-03T13:00:00Z",
+                                            "day": "Tuesday"
+                                        }]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }]
+            },
+            {
+                "number": 3,
+                "semesters": [{
+                    "number": 1,
+                    "courses": [{
+                            "code": "SECJ3104",
+                            "name": "Application Development",
+                            "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T11:00:00Z",
+                                                "endTime": "2020-05-03T13:00:00Z",
+                                                "day": "Tuesday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "Sunday"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "number": 2,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T08:00:00Z",
+                                                "endTime": "2020-05-03T10:00:00Z",
+                                                "day": "Tuesday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T08:00:00Z",
+                                                "endTime": "2020-05-03T10:00:00Z",
+                                                "day": "Thursday"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "code": "UKQE3001",
+                            "name": "Extracurricular Experiential Learning",
+                            "sections": [{
+                                    "number": 20,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T16:00:00Z",
+                                            "day": "Tuesday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 21,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T16:00:00Z",
+                                            "day": "Tuesday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 22,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T16:00:00Z",
+                                            "day": "Tuesday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 23,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T16:00:00Z",
+                                            "day": "Tuesday"
+                                        }]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "code": "SECJ3553",
+                            "name": "Artificial Intelligence",
+                            "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T17:00:00Z",
+                                            "day": "Monday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 2,
+                                    "doctor": {
+                                        "name": "unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T17:00:00Z",
+                                            "day": "Monday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 3,
+                                    "doctor": {
+                                        "name": "unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T17:00:00Z",
+                                            "day": "Monday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 4,
+                                    "doctor": {
+                                        "name": "unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T17:00:00Z",
+                                            "day": "Monday"
+                                        }]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "code": "SECJ3303",
+                            "name": "Internet Programming",
+                            "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "Monday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T08:00:00Z",
+                                                "endTime": "2020-05-03T10:00:00Z",
+                                                "day": "Thursday"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "number": 2,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "Monday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T08:00:00Z",
+                                                "endTime": "2020-05-03T10:00:00Z",
+                                                "day": "Thursday"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "number": 3,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "Thursday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T08:00:00Z",
+                                                "endTime": "2020-05-03T10:00:00Z",
+                                                "day": "Wednesday"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "number": 4,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                                "startTime": "2020-05-03T14:00:00Z",
+                                                "endTime": "2020-05-03T16:00:00Z",
+                                                "day": "Thursday"
+                                            },
+                                            {
+                                                "startTime": "2020-05-03T08:00:00Z",
+                                                "endTime": "2020-05-03T10:00:00Z",
+                                                "day": "Wednesday"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "code": "SECJ3323",
+                            "name": "Software Design & Architecture",
+                            "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T10:00:00Z",
+                                            "endTime": "2020-05-03T13:00:00Z",
+                                            "day": "Tuesday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 2,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T10:00:00Z",
+                                            "endTime": "2020-05-03T13:00:00Z",
+                                            "day": "Tuesday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 3,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T17:00:00Z",
+                                            "day": "Monday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 4,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T14:00:00Z",
+                                            "endTime": "2020-05-03T17:00:00Z",
+                                            "day": "Monday"
+                                        }]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }]
+            },
+            {
+                "number": 4,
+                "semesters": [{
+                    "number": 1,
+                    "courses": [{
+                            "code": "SECD3761",
+                            "name": "Technopreneurship Seminar",
+                            "sections": [{
+                                    "number": 1,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T08:00:00Z",
+                                            "endTime": "2020-05-03T11:00:00Z",
+                                            "day": "Monday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 2,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T08:00:00Z",
+                                            "endTime": "2020-05-03T11:00:00Z",
+                                            "day": "Monday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 3,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T08:00:00Z",
+                                            "endTime": "2020-05-03T11:00:00Z",
+                                            "day": "Monday"
+                                        }]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "code": "UBSS1032",
+                            "name": "Introduction to Entrepreneurship",
+                            "sections": [{
+                                    "number": 23,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T08:00:00Z",
+                                            "endTime": "2020-05-03T11:00:00Z",
+                                            "day": "Monday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 24,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T08:00:00Z",
+                                            "endTime": "2020-05-03T11:00:00Z",
+                                            "day": "Monday"
+                                        }]
+                                    }
+                                },
+                                {
+                                    "number": 25,
+                                    "doctor": {
+                                        "name": "Unknown",
+                                        "classes": [{
+                                            "startTime": "2020-05-03T08:00:00Z",
+                                            "endTime": "2020-05-03T11:00:00Z",
+                                            "day": "Monday"
+                                        }]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }]
+            }
+        ]
+    }
+]

@@ -7,7 +7,7 @@ class CourseModel {
     }
 
     get() {
-        return database.getList("years");
+        return database.getList("majors");
     }
 }
 
