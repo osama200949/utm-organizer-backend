@@ -25,6 +25,10 @@ class CourseModel {
     updateSelectedCourse(id, course) {
         return database.set("selectedCourses", id, course);
     }
+
+    deleteSelectedCourse(id) {
+        return database.delete("selectedCourses", id);
+    }
 }
 
 module.exports = new CourseModel();
