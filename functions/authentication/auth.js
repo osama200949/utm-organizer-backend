@@ -1,6 +1,6 @@
 const database = require("../api/database");
 const functions = require("firebase-functions");
-const { signUp } = ("..");
+const { signUp } = "..";
 
 function isAuth(req, res, next) {
   var uid;
@@ -19,13 +19,13 @@ function isAuth(req, res, next) {
   return;
 }
 async function createUser(data, context) {
-  var errorMessage;
-  var isError = false;
-  var gender = data.gender;
-  var photoURL = "";
-  console.log(gender);
+  var errorMessage = "No error";
 
-  gender === false
+  var gender = data.gender;
+  var isError = false;
+  var photoURL = "";
+
+  gender === true
     ? (photoURL =
         "https://robohash.org/5203cae37e1e43982eb90d767816b806?set=set4&bgset=bg2&size=400x400")
     : (photoURL =
