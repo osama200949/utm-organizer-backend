@@ -1,6 +1,6 @@
 const database = require("../api/database");
 const functions = require("firebase-functions");
-const { signUp } = require("..");
+const { signUp } = ("..");
 
 function isAuth(req, res, next) {
   var uid;
@@ -18,14 +18,26 @@ function isAuth(req, res, next) {
   next();
   return;
 }
-
 async function createUser(data, context) {
   var errorMessage;
   var isError = false;
+  var gender = data.gender;
+  var photoURL = "";
+  console.log(gender);
+
+  gender === false
+    ? (photoURL =
+        "https://robohash.org/5203cae37e1e43982eb90d767816b806?set=set4&bgset=bg2&size=400x400")
+    : (photoURL =
+        "https://robohash.org/e24015b73e28939b10f39e2ab5f89430?set=set4&bgset=bg2&size=400x400");
+
+  console.log(photoURL);
   const user = await database.auth
     .createUser({
+      displayName: data.displayName,
       email: data.email,
       password: data.password,
+      photoURL: photoURL,
     })
     .then()
     .catch((err) => {
@@ -35,13 +47,16 @@ async function createUser(data, context) {
     });
 
   if (user) {
-    await database.firestore
-      .collection("users")
-      .doc(user.uid)
-      .set(
-        { fullName: data.fullName, email: data.email, gender: data.gender },
-        { merge: true }
-      );
+    await database.firestore.collection("users").doc(user.uid).set(
+      {
+        fullName: data.displayName,
+        email: data.email,
+        photoURL: photoURL,
+        gender: data.gender,
+        isDeleted: false,
+      },
+      { merge: true }
+    );
   }
 
   return {
