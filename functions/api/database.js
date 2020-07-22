@@ -76,6 +76,12 @@ class Database {
 
         return { id };
     }
+
+    async deleteAll(collection) {
+        const cref = this.firestore.collection(collection);
+        const docs = await cref.listDocuments();
+        docs.forEach((doc) => doc.delete());
+    }
 }
 
 module.exports = new Database();

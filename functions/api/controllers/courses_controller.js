@@ -69,4 +69,14 @@ router.delete("/selectedCourses/:id", async(req, res, next) => {
     }
 });
 
+router.delete("/selectedCourses", async(req, res, next) => {
+    try {
+        const result = await CoursesModel.deleteAllSelectedCourses();
+        if (!result) return res.sendStatus(404);
+        return res.sendStatus(200);
+    } catch (e) {
+        return next(e);
+    }
+});
+
 module.exports = router;

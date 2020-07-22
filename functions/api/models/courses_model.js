@@ -29,6 +29,10 @@ class CourseModel {
     deleteSelectedCourse(id) {
         return database.delete("selectedCourses", id);
     }
+
+    deleteAllSelectedCourses() {
+        return database.deleteAll("selectedCourses");
+    }
 }
 
 module.exports = new CourseModel();

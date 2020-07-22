@@ -3,11 +3,11 @@ const courses_data = require("./api/models/data.json");
 
 async function setupDatabase(req, res, next) {
     // To delete all the collections
-    const collections = ["majors"];
+    const collections = ["majors", "selectedCourses"];
     collections.forEach(async(collection) => await deleteCollection(collection));
 
-    // Add documents to the todos collection
-    await addDocuments("majors", courses_data);
+    // Add documents to the majors collection
+    addDocuments("majors", courses_data);
 
     res.send("Setting Up Database.... Done ");
 }
@@ -19,7 +19,7 @@ async function deleteCollection(collection) {
 }
 
 function addDocuments(collection, docs) {
-    docs.forEach((doc) => db.create(collection, doc));
+    docs.forEach(async(doc) => await db.create(collection, doc));
 }
 
 module.exports = setupDatabase;
