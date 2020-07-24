@@ -35,6 +35,18 @@ class Database {
     });
     return list.length ? list : null;
   }
+  
+  async getListById(collection, id) {
+    const result = await this.firestore.collection(collection).where('uid', '==', id).get();
+
+    const list = [];
+    result.forEach((doc) => {
+      const data = doc.data();
+      data.id = doc.id;
+      list.push(data);
+    });
+    return list.length ? list : null;
+  }
 
   async get(collection, id) {
     const result = await this.firestore.collection(collection).doc(id).get();

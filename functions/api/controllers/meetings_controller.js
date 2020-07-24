@@ -25,6 +25,18 @@ router.get('/:id', async (req, res, next) => {
     }
 })
 
+// Get all meetings that match the user
+router.get('/:id/calendar', async (req, res, next) => {
+    try {
+        const result = await meetingsModel.getListById(req.params.id)
+        if (!result) return res.sendStatus(404)
+        return res.json(result)
+    }
+    catch (e) {
+        return next(e)
+    }
+})
+
 // Create a new todo
 router.post('/', async (req, res, next) => {
     try {

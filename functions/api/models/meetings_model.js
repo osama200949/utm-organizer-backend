@@ -8,6 +8,8 @@ class MeetingModel {
         MeetingModel.instance = this;
     }
 
+    getListById(id) { return database.getListById('meetings',id) }  // List with meetings according to user
+
     get() { return database.getList('meetings') }
 
     getById(id) { return database.get('meetings', id) }
