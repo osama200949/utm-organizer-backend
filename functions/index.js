@@ -7,7 +7,13 @@ const auth = require("./authentication/auth");
 const clubsRouter = require("./api/controllers/clubs_controller");
 
 app.use(express.json());
-app.use("/clubs", clubsRouter);
+app.use("/v1/clubs", clubsRouter);
+const todosRouter = require("./api/controllers/todos_controller");
+const meetingsRouter = require("./api/controllers/meetings_controller");
+
+app.use(express.json());
+app.use("/v1/todos", todosRouter);
+app.use("/v1/meetings", meetingsRouter);
 
 exports.api = functions.https.onRequest(app);
 
