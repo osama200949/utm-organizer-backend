@@ -6,6 +6,7 @@
                         "number": 1,
                         "courses": [{
                                 "code": "SECI1013",
+                                "type": "recommended",
                                 "name": "Discrete Structure",
                                 "sections": [{
                                         "number": 1,
@@ -45,6 +46,7 @@
                             },
                             {
                                 "code": "SESJ1013",
+                                "type": "recommended",
                                 "name": "Programming Technique 1",
                                 "sections": [{
                                         "number": 1,
@@ -84,6 +86,7 @@
                             },
                             {
                                 "code": "SECR1013",
+                                "type": "recommended",
                                 "name": "Digital Logic",
                                 "sections": [{
                                         "number": 1,
@@ -123,6 +126,7 @@
                             },
                             {
                                 "code": "SECP1513",
+                                "type": "recommended",
                                 "name": "Technology & Information System",
                                 "sections": [{
                                     "number": 1,
@@ -144,6 +148,7 @@
                             },
                             {
                                 "code": "UHMT1012",
+                                "type": "recommended",
                                 "name": "Graduate Success Attributes",
                                 "sections": [{
                                         "number": 1,
@@ -193,6 +198,7 @@
                             },
                             {
                                 "code": "UHIT2302",
+                                "type": "recommended",
                                 "name": "The Thought of Sciences and Technology",
                                 "sections": [{
                                         "number": 2,
@@ -242,6 +248,7 @@
                             },
                             {
                                 "code": "UHMS1172",
+                                "type": "recommended",
                                 "name": "Malaysia Dynamic",
                                 "sections": [{
                                     "number": 11,
@@ -257,6 +264,7 @@
                             },
                             {
                                 "code": "UHLM1012",
+                                "type": "language",
                                 "name": "Malaysia Language for Communication II",
                                 "sections": [{
                                     "number": 1,
@@ -272,6 +280,7 @@
                             },
                             {
                                 "code": "UHMS1022",
+                                "type": "recommended",
                                 "name": "Malaysian Studies 3",
                                 "sections": [{
                                     "number": 1,
@@ -291,6 +300,7 @@
                         "number": 2,
                         "courses": [{
                                 "code": "SECR1033",
+                                "type": "recommended",
                                 "name": "Computer Organization and Architecture",
                                 "sections": [{
                                     "number": 1,
@@ -312,6 +322,7 @@
                             },
                             {
                                 "code": "SECI1113",
+                                "type": "recommended",
                                 "name": "Computational Mathematics",
                                 "sections": [{
                                     "number": 1,
@@ -335,6 +346,7 @@
                     "number": 1,
                     "courses": [{
                             "code": "SECD2523",
+                            "type": "recommended",
                             "name": "Database",
                             "sections": [{
                                     "number": 1,
@@ -408,6 +420,7 @@
                         },
                         {
                             "code": "SECP2613",
+                            "type": "recommended",
                             "name": "System Analysis and Design",
                             "sections": [{
                                     "number": 1,
@@ -457,6 +470,7 @@
                         },
                         {
                             "code": "SECJ2013",
+                            "type": "recommended",
                             "name": "Data Structure and Alogrithim",
                             "sections": [{
                                     "number": 1,
@@ -513,6 +527,7 @@
                         },
                         {
                             "code": "SECR1213",
+                            "type": "recommended",
                             "name": "Network Communications",
                             "sections": [{
                                     "number": 1,
@@ -562,6 +577,7 @@
                         },
                         {
                             "code": "SECV2113",
+                            "type": "recommended",
                             "name": "Human Computer Interaction",
                             "sections": [{
                                     "number": 1,
@@ -618,6 +634,7 @@
                     "number": 1,
                     "courses": [{
                             "code": "SECJ3104",
+                            "type": "recommended",
                             "name": "Application Development",
                             "sections": [{
                                     "number": 1,
@@ -657,6 +674,7 @@
                         },
                         {
                             "code": "UKQE3001",
+                            "type": "co-q",
                             "name": "Extracurricular Experiential Learning",
                             "sections": [{
                                     "number": 20,
@@ -706,6 +724,7 @@
                         },
                         {
                             "code": "SECJ3553",
+                            "type": "recommended",
                             "name": "Artificial Intelligence",
                             "sections": [{
                                     "number": 1,
@@ -755,6 +774,7 @@
                         },
                         {
                             "code": "SECJ3303",
+                            "type": "recommended",
                             "name": "Internet Programming",
                             "sections": [{
                                     "number": 1,
@@ -828,6 +848,7 @@
                         },
                         {
                             "code": "SECJ3323",
+                            "type": "recommended",
                             "name": "Software Design & Architecture",
                             "sections": [{
                                     "number": 1,
@@ -884,6 +905,7 @@
                     "number": 1,
                     "courses": [{
                             "code": "SECD3761",
+                            "type": "recommended",
                             "name": "Technopreneurship Seminar",
                             "sections": [{
                                     "number": 1,
@@ -922,6 +944,7 @@
                         },
                         {
                             "code": "UBSS1032",
+                            "type": "recommended",
                             "name": "Introduction to Entrepreneurship",
                             "sections": [{
                                     "number": 23,
@@ -971,6 +994,7 @@
                         "number": 1,
                         "courses": [{
                                 "code": "SECI1013",
+                                "type": "recommended",
                                 "name": "Discrete Structure",
                                 "sections": [{
                                         "number": 1,
@@ -1010,6 +1034,7 @@
                             },
                             {
                                 "code": "SESJ1013",
+                                "type": "recommended",
                                 "name": "Programming Technique 1",
                                 "sections": [{
                                         "number": 1,
@@ -1049,6 +1074,7 @@
                             },
                             {
                                 "code": "SECR1013",
+                                "type": "recommended",
                                 "name": "Digital Logic",
                                 "sections": [{
                                         "number": 1,
@@ -1088,6 +1114,7 @@
                             },
                             {
                                 "code": "SECP1513",
+                                "type": "recommended",
                                 "name": "Technology & Information System",
                                 "sections": [{
                                     "number": 1,
@@ -1109,6 +1136,7 @@
                             },
                             {
                                 "code": "UHMT1012",
+                                "type": "recommended",
                                 "name": "Graduate Success Attributes",
                                 "sections": [{
                                         "number": 1,
@@ -1158,6 +1186,7 @@
                             },
                             {
                                 "code": "UHIT2302",
+                                "type": "recommended",
                                 "name": "The Thought of Sciences and Technology",
                                 "sections": [{
                                         "number": 2,
@@ -1207,6 +1236,7 @@
                             },
                             {
                                 "code": "UHMS1172",
+                                "type": "recommended",
                                 "name": "Malaysia Dynamic",
                                 "sections": [{
                                     "number": 11,
@@ -1222,6 +1252,7 @@
                             },
                             {
                                 "code": "UHLM1012",
+                                "type": "language",
                                 "name": "Malaysia Language for Communication II",
                                 "sections": [{
                                     "number": 1,
@@ -1237,6 +1268,7 @@
                             },
                             {
                                 "code": "UHMS1022",
+                                "type": "recommended",
                                 "name": "Malaysian Studies 3",
                                 "sections": [{
                                     "number": 1,
@@ -1256,6 +1288,7 @@
                         "number": 2,
                         "courses": [{
                                 "code": "SECR1033",
+                                "type": "recommended",
                                 "name": "Computer Organization and Architecture",
                                 "sections": [{
                                     "number": 1,
@@ -1277,6 +1310,7 @@
                             },
                             {
                                 "code": "SECI1113",
+                                "type": "recommended",
                                 "name": "Computational Mathematics",
                                 "sections": [{
                                     "number": 1,
@@ -1300,6 +1334,7 @@
                     "number": 1,
                     "courses": [{
                             "code": "SECD2523",
+                            "type": "recommended",
                             "name": "Database",
                             "sections": [{
                                     "number": 1,
@@ -1373,6 +1408,7 @@
                         },
                         {
                             "code": "SECP2613",
+                            "type": "recommended",
                             "name": "System Analysis and Design",
                             "sections": [{
                                     "number": 1,
@@ -1422,6 +1458,7 @@
                         },
                         {
                             "code": "SECJ2013",
+                            "type": "recommended",
                             "name": "Data Structure and Alogrithim",
                             "sections": [{
                                     "number": 1,
@@ -1478,6 +1515,7 @@
                         },
                         {
                             "code": "SECR1213",
+                            "type": "recommended",
                             "name": "Network Communications",
                             "sections": [{
                                     "number": 1,
@@ -1527,6 +1565,7 @@
                         },
                         {
                             "code": "SECV2113",
+                            "type": "recommended",
                             "name": "Human Computer Interaction",
                             "sections": [{
                                     "number": 1,
@@ -1583,6 +1622,7 @@
                     "number": 1,
                     "courses": [{
                             "code": "SECJ3104",
+                            "type": "recommended",
                             "name": "Application Development",
                             "sections": [{
                                     "number": 1,
@@ -1622,6 +1662,7 @@
                         },
                         {
                             "code": "UKQE3001",
+                            "type": "co-q",
                             "name": "Extracurricular Experiential Learning",
                             "sections": [{
                                     "number": 20,
@@ -1671,6 +1712,7 @@
                         },
                         {
                             "code": "SECJ3553",
+                            "type": "recommended",
                             "name": "Artificial Intelligence",
                             "sections": [{
                                     "number": 1,
@@ -1720,6 +1762,7 @@
                         },
                         {
                             "code": "SECJ3303",
+                            "type": "recommended",
                             "name": "Internet Programming",
                             "sections": [{
                                     "number": 1,
@@ -1793,6 +1836,7 @@
                         },
                         {
                             "code": "SECJ3323",
+                            "type": "recommended",
                             "name": "Software Design & Architecture",
                             "sections": [{
                                     "number": 1,
@@ -1849,6 +1893,7 @@
                     "number": 1,
                     "courses": [{
                             "code": "SECD3761",
+                            "type": "recommended",
                             "name": "Technopreneurship Seminar",
                             "sections": [{
                                     "number": 1,
@@ -1887,6 +1932,7 @@
                         },
                         {
                             "code": "UBSS1032",
+                            "type": "recommended",
                             "name": "Introduction to Entrepreneurship",
                             "sections": [{
                                     "number": 23,
@@ -1936,6 +1982,7 @@
                         "number": 1,
                         "courses": [{
                                 "code": "SECI1013",
+                                "type": "recommended",
                                 "name": "Discrete Structure",
                                 "sections": [{
                                         "number": 1,
@@ -1975,6 +2022,7 @@
                             },
                             {
                                 "code": "SESJ1013",
+                                "type": "recommended",
                                 "name": "Programming Technique 1",
                                 "sections": [{
                                         "number": 1,
@@ -2014,6 +2062,7 @@
                             },
                             {
                                 "code": "SECR1013",
+                                "type": "recommended",
                                 "name": "Digital Logic",
                                 "sections": [{
                                         "number": 1,
@@ -2053,6 +2102,7 @@
                             },
                             {
                                 "code": "SECP1513",
+                                "type": "recommended",
                                 "name": "Technology & Information System",
                                 "sections": [{
                                     "number": 1,
@@ -2074,6 +2124,7 @@
                             },
                             {
                                 "code": "UHMT1012",
+                                "type": "recommended",
                                 "name": "Graduate Success Attributes",
                                 "sections": [{
                                         "number": 1,
@@ -2123,6 +2174,7 @@
                             },
                             {
                                 "code": "UHIT2302",
+                                "type": "recommended",
                                 "name": "The Thought of Sciences and Technology",
                                 "sections": [{
                                         "number": 2,
@@ -2172,6 +2224,7 @@
                             },
                             {
                                 "code": "UHMS1172",
+                                "type": "recommended",
                                 "name": "Malaysia Dynamic",
                                 "sections": [{
                                     "number": 11,
@@ -2187,6 +2240,7 @@
                             },
                             {
                                 "code": "UHLM1012",
+                                "type": "language",
                                 "name": "Malaysia Language for Communication II",
                                 "sections": [{
                                     "number": 1,
@@ -2202,6 +2256,7 @@
                             },
                             {
                                 "code": "UHMS1022",
+                                "type": "recommended",
                                 "name": "Malaysian Studies 3",
                                 "sections": [{
                                     "number": 1,
@@ -2221,6 +2276,7 @@
                         "number": 2,
                         "courses": [{
                                 "code": "SECR1033",
+                                "type": "recommended",
                                 "name": "Computer Organization and Architecture",
                                 "sections": [{
                                     "number": 1,
@@ -2242,6 +2298,7 @@
                             },
                             {
                                 "code": "SECI1113",
+                                "type": "recommended",
                                 "name": "Computational Mathematics",
                                 "sections": [{
                                     "number": 1,
@@ -2265,6 +2322,7 @@
                     "number": 1,
                     "courses": [{
                             "code": "SECD2523",
+                            "type": "recommended",
                             "name": "Database",
                             "sections": [{
                                     "number": 1,
@@ -2338,6 +2396,7 @@
                         },
                         {
                             "code": "SECP2613",
+                            "type": "recommended",
                             "name": "System Analysis and Design",
                             "sections": [{
                                     "number": 1,
@@ -2387,6 +2446,7 @@
                         },
                         {
                             "code": "SECJ2013",
+                            "type": "recommended",
                             "name": "Data Structure and Alogrithim",
                             "sections": [{
                                     "number": 1,
@@ -2443,6 +2503,7 @@
                         },
                         {
                             "code": "SECR1213",
+                            "type": "recommended",
                             "name": "Network Communications",
                             "sections": [{
                                     "number": 1,
@@ -2492,6 +2553,7 @@
                         },
                         {
                             "code": "SECV2113",
+                            "type": "recommended",
                             "name": "Human Computer Interaction",
                             "sections": [{
                                     "number": 1,
@@ -2548,6 +2610,7 @@
                     "number": 1,
                     "courses": [{
                             "code": "SECJ3104",
+                            "type": "recommended",
                             "name": "Application Development",
                             "sections": [{
                                     "number": 1,
@@ -2587,6 +2650,7 @@
                         },
                         {
                             "code": "UKQE3001",
+                            "type": "co-q",
                             "name": "Extracurricular Experiential Learning",
                             "sections": [{
                                     "number": 20,
@@ -2636,6 +2700,7 @@
                         },
                         {
                             "code": "SECJ3553",
+                            "type": "recommended",
                             "name": "Artificial Intelligence",
                             "sections": [{
                                     "number": 1,
@@ -2685,6 +2750,7 @@
                         },
                         {
                             "code": "SECJ3303",
+                            "type": "recommended",
                             "name": "Internet Programming",
                             "sections": [{
                                     "number": 1,
@@ -2758,6 +2824,7 @@
                         },
                         {
                             "code": "SECJ3323",
+                            "type": "recommended",
                             "name": "Software Design & Architecture",
                             "sections": [{
                                     "number": 1,
@@ -2814,6 +2881,7 @@
                     "number": 1,
                     "courses": [{
                             "code": "SECD3761",
+                            "type": "recommended",
                             "name": "Technopreneurship Seminar",
                             "sections": [{
                                     "number": 1,
@@ -2852,6 +2920,7 @@
                         },
                         {
                             "code": "UBSS1032",
+                            "type": "recommended",
                             "name": "Introduction to Entrepreneurship",
                             "sections": [{
                                     "number": 23,
