@@ -1,6 +1,5 @@
 const database = require("../api/database");
 const functions = require("firebase-functions");
-const { signUp } = "..";
 
 function isAuth(req, res, next) {
   var uid;
@@ -20,7 +19,6 @@ function isAuth(req, res, next) {
 }
 async function createUser(data, context) {
   var errorMessage = "No error";
-
   var gender = data.gender;
   var isError = false;
   var photoURL = "";
@@ -49,7 +47,7 @@ async function createUser(data, context) {
   if (user) {
     await database.firestore.collection("users").doc(user.uid).set(
       {
-        fullName: data.displayName,
+        displayName: data.displayName,
         email: data.email,
         photoURL: photoURL,
         gender: data.gender,
@@ -69,4 +67,42 @@ async function createUser(data, context) {
   };
 }
 
-module.exports = createUser;
+async function updateUser(data, context) {
+  var errorMessage = "No error";
+  var isError = false;
+
+  const user = await database.auth
+    .updateUser(data.uid, {
+      displayName: data.displayName,
+      email: data.email,
+      password: data.password,
+    })
+    .then()
+    .catch((err) => {
+      isError = true;
+      errorMessage = err.message;
+      console.log(errorMessage);
+    });
+
+  if (user) {
+    await database.firestore.collection("users").doc(user.uid).set(
+      {
+        displayName: data.displayName,
+        email: data.email,
+        isDeleted: false,
+      },
+      { merge: true }
+    );
+  }
+
+  return {
+    isError: isError,
+    repeat_message: errorMessage,
+    displayName: data.displayName,
+    email: data.email,
+    password: data.password,
+  };
+}
+
+module.exports.createUser = createUser;
+module.exports.updateUser = updateUser;

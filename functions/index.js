@@ -22,4 +22,5 @@ exports.functionsTimeOut = functions.runWith({
 
 exports.setupdb = functions.https.onRequest(require("./setup_database"));
 
-exports.signUp = functions.https.onCall(require("./authentication/auth"));
+exports.signUp = functions.https.onCall(auth.createUser);
+exports.updateUser = functions.https.onCall(auth.updateUser);
