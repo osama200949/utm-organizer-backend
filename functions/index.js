@@ -23,10 +23,12 @@ const clubsRouter = require("./api/controllers/clubs_controller");
 app.use(express.json());
 app.use("/v1/clubs", clubsRouter);
 
+exports.apiClubs = functions.https.onRequest(app);
+
 const meetingsRouter = require("./api/controllers/meetings_controller");
 app.use("/v1/meetings", meetingsRouter);
 
-exports.apiClubs = functions.https.onRequest(app);
+exports.api = functions.https.onRequest(app);
 
 // To handle "Function Timeout" exception
 exports.functionsTimeOut = functions.runWith({
