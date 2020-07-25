@@ -19,7 +19,6 @@ exports.setupdb = functions.https.onRequest(require("./setup_database"));
 const database = require("./api/database");
 const auth = require("./authentication/auth");
 const clubsRouter = require("./api/controllers/clubs_controller");
-const meetingsRouter = require("./api/controllers/meetings_controller");
 
 app.use(express.json());
 app.use("/v1/clubs", clubsRouter);
