@@ -10,7 +10,7 @@ class Database {
     });
 
     this.firestore = admin.firestore();
-    this.storge = admin.firestore();
+    this.storage = admin.storage();
     this.auth = admin.auth();
   }
 
