@@ -14,7 +14,7 @@ exports.majors = functions.https.onRequest(app);
 //     timeoutSeconds: 300,
 // });
 
-exports.setupdb = functions.https.onRequest(require("./setup_database"));
+exports.setupdbMajors = functions.https.onRequest(require("./setup_database"));
 
 const database = require("./api/database");
 const auth = require("./authentication/auth");
@@ -23,7 +23,7 @@ const clubsRouter = require("./api/controllers/clubs_controller");
 app.use(express.json());
 app.use("/v1/clubs", clubsRouter);
 
-exports.apiClubs = functions.https.onRequest(app);
+// exports.apiClubs = functions.https.onRequest(app);
 
 const meetingsRouter = require("./api/controllers/meetings_controller");
 app.use("/v1/meetings", meetingsRouter);
