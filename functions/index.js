@@ -15,3 +15,26 @@ exports.majors = functions.https.onRequest(app);
 // });
 
 exports.setupdb = functions.https.onRequest(require("./setup_database"));
+
+const database = require("./api/database");
+const auth = require("./authentication/auth");
+const clubsRouter = require("./api/controllers/clubs_controller");
+const meetingsRouter = require("./api/controllers/meetings_controller");
+
+app.use(express.json());
+app.use("/v1/clubs", clubsRouter);
+app.use("/v1/meetings", meetingsRouter);
+
+exports.apiClubs = functions.https.onRequest(app);
+
+// To handle "Function Timeout" exception
+exports.functionsTimeOut = functions.runWith({
+    timeoutSeconds: 300,
+});
+
+exports.setupdbClubs = functions.https.onRequest(
+    require("./setup_database_clubs")
+);
+
+exports.signUp = functions.https.onCall(auth.createUser);
+exports.updateUser = functions.https.onCall(auth.updateUser);

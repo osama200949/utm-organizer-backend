@@ -1,11 +1,11 @@
-const todosModel = require('../models/todos_model')
+const meetingsModel = require('../models/meetings_model')
 const express = require('express')
 const router = express.Router()
 
-// Get all todos
+// Get all meetings
 router.get('/', async (req, res, next) => {
     try {
-        const result = await todosModel.get()
+        const result = await meetingsModel.get()
         return res.json(result)
     }
     catch (e) {
@@ -16,7 +16,7 @@ router.get('/', async (req, res, next) => {
 // Get one todo
 router.get('/:id', async (req, res, next) => {
     try {
-        const result = await todosModel.getById(req.params.id)
+        const result = await meetingsModel.getById(req.params.id)
         if (!result) return res.sendStatus(404)
         return res.json(result)
     }
@@ -28,7 +28,7 @@ router.get('/:id', async (req, res, next) => {
 // Create a new todo
 router.post('/', async (req, res, next) => {
     try {
-        const result = await todosModel.create(req.body)
+        const result = await meetingsModel.create(req.body)
         if (!result) return res.sendStatus(409)
         return res.status(201).json(result)
     }
@@ -40,7 +40,7 @@ router.post('/', async (req, res, next) => {
 // Delete a todo
 router.delete('/:id', async (req, res, next) => {
     try {
-        const result = await todosModel.delete(req.params.id)
+        const result = await meetingsModel.delete(req.params.id)
         if (!result) return res.sendStatus(404)
         return res.sendStatus(200)
     }
@@ -55,13 +55,13 @@ router.patch('/:id', async (req, res, next) => {
         const id = req.params.id
         const data = req.body
 
-        const doc = await todosModel.getById(id)
+        const doc = await meetingsModel.getById(id)
         if (!doc) return res.sendStatus(404)
 
         // Merge existing fields with the ones to be updated
         Object.keys(data).forEach((key) => doc[key] = data[key])
 
-        const updateResult = await todosModel.update(id, doc)
+        const updateResult = await meetingsModel.update(id, doc)
         if (!updateResult) return res.sendStatus(404)
 
         return res.json(doc)
@@ -74,10 +74,10 @@ router.patch('/:id', async (req, res, next) => {
 // Replace a todo
 router.put('/:id', async (req, res, next) => {
     try {
-        const updateResult = await todosModel.update(req.params.id, req.body)
+        const updateResult = await meetingsModel.update(req.params.id, req.body)
         if (!updateResult) return res.sendStatus(404)
 
-        const result = await todosModel.getById(req.params.id)
+        const result = await meetingsModel.getById(req.params.id)
         return res.json(result)
 
     }
