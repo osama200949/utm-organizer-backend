@@ -10,8 +10,8 @@ app.use(coursesRouter);
 exports.majors = functions.https.onRequest(app);
 
 // To handle "Function Timeout" exception
-exports.functionsTimeOut = functions.runWith({
-    timeoutSeconds: 300,
-});
+// exports.functionsTimeOut = functions.runWith({
+//     timeoutSeconds: 300,
+// });
 
 exports.setupdb = functions.https.onRequest(require("./setup_database"));
