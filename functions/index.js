@@ -9,11 +9,6 @@ app.use(coursesRouter);
 
 exports.majors = functions.https.onRequest(app);
 
-// To handle "Function Timeout" exception
-// exports.functionsTimeOut = functions.runWith({
-//     timeoutSeconds: 300,
-// });
-
 exports.setupdbMajors = functions.https.onRequest(require("./setup_database"));
 
 const database = require("./api/database");
@@ -22,8 +17,6 @@ const clubsRouter = require("./api/controllers/clubs_controller");
 
 app.use(express.json());
 app.use("/v1/clubs", clubsRouter);
-
-// exports.apiClubs = functions.https.onRequest(app);
 
 const meetingsRouter = require("./api/controllers/meetings_controller");
 app.use("/v1/meetings", meetingsRouter);
