@@ -1,84 +1,96 @@
 class Database {
-  constructor() {
-    if (this.instance) return this.instance; // This is the key idea of implementing singleton. Return the same instance (i.e. the one that has already been created before)
+    constructor() {
+        if (this.instance) return this.instance; // This is the key idea of implementing singleton. Return the same instance (i.e. the one that has already been created before)
 
-    Database.instance = this;
-    const admin = require("firebase-admin"); // To access Firestore API
+        // We only proceedd to the following lines only if no instance has been created from this class
+        Database.instance = this;
 
-    admin.initializeApp({
-      credential: admin.credential.applicationDefault(),
-    });
+        const admin = require("firebase-admin"); // To access Firestore API
 
-    this.firestore = admin.firestore();
-    this.storge = admin.firestore();
-    this.auth = admin.auth();
-  }
+        admin.initializeApp({
+            credential: admin.credential.applicationDefault(),
+        });
 
-  // Define some helper methods for CRUD operations
-  // Note that, each firestore function call is asynchronous.
-  //  Thus, you want to use the 'await' keyword at the caller.
+        this.firestore = admin.firestore();
+        this.storage = admin.storage();
+        this.auth = admin.auth();
+    }
 
-  async create(collection, document) {
-    const result = await this.firestore.collection(collection).add(document);
-    document.id = result.id;
-    return document;
-  }
+    // Define some helper methods for CRUD operations
+    // Note that, each firestore function call is asynchronous.
+    //  Thus, you want to use the 'await' keyword at the caller.
 
-  async getList(collection) {
-    const result = await this.firestore.collection(collection).get();
+    async create(collection, document) {
+        const result = await this.firestore.collection(collection).add(document);
+        document.id = result.id;
+        return document;
+    }
 
-    const list = [];
-    result.forEach((doc) => {
-      const data = doc.data();
-      data.id = doc.id;
-      list.push(data);
-    });
-    return list.length ? list : null;
-  }
-  
-  async getListById(collection, id) {
-    const result = await this.firestore.collection(collection).where('uid', '==', id).get();
+    async getListById(collection, id) {
+        const result = await this.firestore
+            .collection(collection)
+            .where("uid", "==", id)
+            .get();
 
-    const list = [];
-    result.forEach((doc) => {
-      const data = doc.data();
-      data.id = doc.id;
-      list.push(data);
-    });
-    return list.length ? list : null;
-  }
+        const list = [];
+        result.forEach((doc) => {
+            const data = doc.data();
+            data.id = doc.id;
+            list.push(data);
+        });
+        return list.length ? list : null;
+    }
 
-  async get(collection, id) {
-    const result = await this.firestore.collection(collection).doc(id).get();
-    if (!result.exists) return null; // Record not found
+    async getList(collection) {
+        const result = await this.firestore.collection(collection).get();
 
-    const doc = result.data();
-    doc.id = result.id;
-    return doc;
-  }
+        const list = [];
+        result.forEach((doc) => {
+            const data = doc.data();
+            data.id = doc.id;
+            list.push(data);
+        });
+        return list.length ? list : null;
+        // return result;
+    }
 
-  async set(collection, id, document) {
-    const doc = this.firestore.collection(collection).doc(id);
-    const result = await doc.get();
+    async get(collection, id) {
+        const result = await this.firestore.collection(collection).doc(id).get();
+        if (!result.exists) return null; // Record not found
 
-    if (!result.exists) return null; // Record not found
+        const doc = result.data();
+        doc.id = result.id;
+        return doc;
+    }
 
-    await doc.set(document);
+    async set(collection, id, document) {
+        const doc = this.firestore.collection(collection).doc(id);
+        const result = await doc.get();
 
-    document.id = id;
-    return document;
-  }
+        if (!result.exists) return null; // Record not found
 
-  async delete(collection, id) {
-    const doc = this.firestore.collection(collection).doc(id);
-    const result = await doc.get();
+        await doc.set(document);
 
-    if (!result.exists) return null; // Record not found
+        document.id = id;
+        return document;
+    }
 
-    await doc.delete();
+    async delete(collection, id) {
+        const doc = this.firestore.collection(collection).doc(id);
+        const result = await doc.get();
 
-    return { id };
-  }
+        if (!result.exists) return null; // Record not found
+
+        await doc.delete();
+
+        return { id };
+    }
+
+    async deleteAll(collection) {
+        const cref = this.firestore.collection(collection);
+        const docs = await cref.listDocuments();
+        docs.forEach((doc) => doc.delete());
+    }
 }
 
 module.exports = new Database();

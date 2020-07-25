@@ -20,7 +20,7 @@ class ClubModel {
     return database.delete("clubs", id);
   }
 
-  update(id, todo) {
+  update(id, club) {
     return database.set("clubs", id, club);
   }
 }
