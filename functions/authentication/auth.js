@@ -67,6 +67,9 @@ async function createUser(data, context) {
   };
 }
 
+
+
+
 async function updateUser(data, context) {
   var errorMessage = "No error";
   var isError = false;
