@@ -28,3 +28,4 @@ exports.setupdbMajors = functions.https.onRequest(require("./setup_database"));
 exports.setupdbClubs = functions.https.onRequest(
   require("./setup_database_clubs")
 );
+
