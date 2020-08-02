@@ -8,7 +8,9 @@ class MeetingModel {
         MeetingModel.instance = this;
     }
 
-    getListById(id) { return database.getListById('meetings',id) }  // List with meetings according to user
+    clearTimetable(id) { return database.clearTimetable('meetings',id) }  // Clear all the courses from the meetings collection
+    
+    getListById(id) { return database.getListById('meetings', id) }  // List with meetings according to user
 
     get() { return database.getList('meetings') }
 

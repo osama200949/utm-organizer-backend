@@ -41,6 +41,15 @@ class Database {
         return list.length ? list : null;
     }
 
+    async clearTimetable(collection, id) {
+        const result = await this.getListById(collection,id)
+        result.forEach((e)=> e["isCourse"] === true ? this.delete('meetings', e["id"]): null
+        )
+        if(!result.exists) return null
+
+        return 'done deleting timetable .js'
+    }
+
     async getList(collection) {
         const result = await this.firestore.collection(collection).get();
 

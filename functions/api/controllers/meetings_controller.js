@@ -13,7 +13,7 @@ router.get('/', async (req, res, next) => {
     }
 })
 
-// Get one todo
+// Get one meeting
 router.get('/:id', async (req, res, next) => {
     try {
         const result = await meetingsModel.getById(req.params.id)
@@ -37,7 +37,7 @@ router.get('/:id/calendar', async (req, res, next) => {
     }
 })
 
-// Create a new todo
+// Create a new meeting
 router.post('/', async (req, res, next) => {
     try {
         const result = await meetingsModel.create(req.body)
@@ -49,7 +49,7 @@ router.post('/', async (req, res, next) => {
     }
 })
 
-// Delete a todo
+// Delete a meeting
 router.delete('/:id', async (req, res, next) => {
     try {
         const result = await meetingsModel.delete(req.params.id)
@@ -61,7 +61,19 @@ router.delete('/:id', async (req, res, next) => {
     }
 })
 
-// Update a todo
+// Delete all courses
+router.delete('/:id/timetable', async (req, res, next) => {
+    try {
+        const result = await meetingsModel.clearTimetable(req.params.id)
+        if (!result) return res.sendStatus(404)
+        return res.sendStatus(200)
+    }
+    catch (e) {
+        return next(e)
+    }
+})
+
+// Update a meeting
 router.patch('/:id', async (req, res, next) => {
     try {
         const id = req.params.id
@@ -83,7 +95,7 @@ router.patch('/:id', async (req, res, next) => {
     }
 })
 
-// Replace a todo
+// Replace a meeting
 router.put('/:id', async (req, res, next) => {
     try {
         const updateResult = await meetingsModel.update(req.params.id, req.body)
