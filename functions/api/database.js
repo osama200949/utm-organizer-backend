@@ -40,14 +40,25 @@ class Database {
         });
         return list.length ? list : null;
     }
+    async getCourses(collection, id) {
+        const result = await this.firestore
+            .collection(collection)
+            .where("uid", "==", id).where("isCourse", "==", true)
+            .get();
+
+        const list = [];
+        result.forEach((doc) => {
+            const data = doc.data();
+            data.id = doc.id;
+            list.push(data);
+        });
+        return list.length ? list : null;
+    }
 
     async clearTimetable(collection, id) {
-        const result = await this.getListById(collection,id)
-        result.forEach((e)=> e["isCourse"] === true ? this.delete('meetings', e["id"]): null
-        )
-        if(!result.exists) return null
+        const result = await this.getCourses(collection, id)
 
-        return 'done deleting timetable .js'
+        result.forEach((doc) => this.delete('meetings', doc["id"]));
     }
 
     async getList(collection) {

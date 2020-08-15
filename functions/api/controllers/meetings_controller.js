@@ -36,6 +36,17 @@ router.get('/:id/calendar', async (req, res, next) => {
         return next(e)
     }
 })
+// Get all courses in the calendar that match the user
+router.get('/:id/courses', async (req, res, next) => {
+    try {
+        const result = await meetingsModel.getCourses(req.params.id)
+        if (!result) return res.sendStatus(404)
+        return res.json(result)
+    }
+    catch (e) {
+        return next(e)
+    }
+})
 
 // Create a new meeting
 router.post('/', async (req, res, next) => {
@@ -65,7 +76,6 @@ router.delete('/:id', async (req, res, next) => {
 router.delete('/:id/timetable', async (req, res, next) => {
     try {
         const result = await meetingsModel.clearTimetable(req.params.id)
-        if (!result) return res.sendStatus(404)
         return res.sendStatus(200)
     }
     catch (e) {
