@@ -14,6 +14,10 @@ class CourseModel {
         return database.get("selectedCourses", id);
     }
 
+    getUserSelectedCourses(id) {
+        return database.getUserSelectedCourses("selectedCourses", id);
+    }
+
     getSelectedCourses() {
         return database.getList("selectedCourses");
     }

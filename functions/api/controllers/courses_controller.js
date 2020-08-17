@@ -3,7 +3,7 @@ const express = require("express");
 const router = express.Router();
 
 // Get all Courses
-router.get("/", async(req, res, next) => {
+router.get("/", async (req, res, next) => {
     try {
         const result = await CoursesModel.get();
         return res.json(result);
@@ -13,7 +13,7 @@ router.get("/", async(req, res, next) => {
 });
 
 // Get all Selected Courses
-router.get("/selectedCourses", async(req, res, next) => {
+router.get("/selectedCourses", async (req, res, next) => {
     try {
         const result = await CoursesModel.getSelectedCourses();
         return res.json(result);
@@ -22,8 +22,18 @@ router.get("/selectedCourses", async(req, res, next) => {
     }
 });
 
+// Get all user Selected Courses
+router.get("/:id/userSelectedCourses", async (req, res, next) => {
+    try {
+        const result = await CoursesModel.getUserSelectedCourse();
+        return res.json(result);
+    } catch (e) {
+        return next(e);
+    }
+});
+
 // Add a Selected Course
-router.post("/selectedCourses", async(req, res, next) => {
+router.post("/selectedCourses", async (req, res, next) => {
     try {
         const result = await CoursesModel.addSelectedCourse(req.body);
         if (!result) return res.sendStatus(409);
@@ -34,7 +44,7 @@ router.post("/selectedCourses", async(req, res, next) => {
 });
 
 // Update a Selected Course
-router.patch("/selectedCourses/:id", async(req, res, next) => {
+router.patch("/selectedCourses/:id", async (req, res, next) => {
     try {
         const id = req.params.id;
         const data = JSON.parse(req.body);
@@ -59,7 +69,7 @@ router.patch("/selectedCourses/:id", async(req, res, next) => {
     }
 });
 
-router.delete("/selectedCourses/:id", async(req, res, next) => {
+router.delete("/selectedCourses/:id", async (req, res, next) => {
     try {
         const result = await CoursesModel.deleteSelectedCourse(req.params.id);
         if (!result) return res.sendStatus(404);
@@ -69,7 +79,7 @@ router.delete("/selectedCourses/:id", async(req, res, next) => {
     }
 });
 
-router.delete("/selectedCourses", async(req, res, next) => {
+router.delete("/selectedCourses", async (req, res, next) => {
     try {
         const result = await CoursesModel.deleteAllSelectedCourses();
         if (!result) return res.sendStatus(404);

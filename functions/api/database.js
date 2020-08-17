@@ -55,6 +55,21 @@ class Database {
         return list.length ? list : null;
     }
 
+    async getUserSelectedCourses(collection, id) {
+        const result = await this.firestore
+            .collection(collection)
+            .where("uid", "==", id)
+            .get();
+
+        const list = [];
+        result.forEach((doc) => {
+            const data = doc.data();
+            data.id = doc.id;
+            list.push(data);
+        });
+        return list.length ? list : null;
+    }
+
     async clearTimetable(collection, id) {
         const result = await this.getCourses(collection, id)
 
