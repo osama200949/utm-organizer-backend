@@ -4,6 +4,17 @@ June 2020
 
 # Group Project Final Version
 
+<br />
+<p align="center">
+    <a href="LINK">
+        <img src="images/logos/logo.svg" alt="Logo"  height="150">
+    </a>    
+</p>
+
+
+
+
+
 ## Project Title: UTM Orgnizer 
 
 ## Project Synopis:
